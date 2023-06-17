@@ -1,0 +1,178 @@
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.card a {
+
+ text-decoration: none;
+ color: black;
+ font-size: 20px;
+ display: flex;
+ justify-content: right;
+ width: 100%;
+}
+
+
+
+#logo {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    text-decoration: none;
+}
+
+.display-4 {
+    color: white;
+    font-weight: bold;
+
+}
+
+#heroIntroText {
+    color: white;
+    display: flex;
+    justify-content: left;
+    font-size: 100px;
+}
+
+#heroIntroButton {
+    background-color: blueviolet;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.card {
+
+    box-shadow: 3px 0 0 0px whitesmoke;
+
+}
+
+.jumbotron {
+
+
+    box-shadow: 8px 0 8px 0px blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-size: cover;
+
+
+}
+
+#membershipFormButton {
+
+background-color: blueviolet;
+color: white;
+font-weight: bold;
+border: none;
+padding-top: 11px;
+padding-bottom: 20px;
+height: 45px;
+
+}
+
+
+#membershipHeader {
+
+margin-left: 313px;
+margin-top: 50px;
+}
+
+#techSupportPic {
+float: right;
+position: relative;
+top: -150px;
+
+}
+
+.form-select {
+
+    width: 15%;
+}
+
+#evidence {
+    width: 50%;
+    height: 20rem;
+}
+
+#heroTech {
+
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVjaCUyMHN1cHBvcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=10");
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#heroTitle {
+
+   color: white;
+   font-size: 150px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   position: relative;
+   top: 100px;
+
+
+}
+
+#heroTitleOrders {
+
+   color: white;
+   font-size: 150px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   position: relative;
+   top: 100px;
+
+
+}
+
+#heroOrders {
+
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.unsplash.com/photo-1576867757603-05b134ebc379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnVmZmV0fGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=100");
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#introHero {
+
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://images.unsplash.com/photo-1567344782667-5390f69c40c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmV3JTIweW9yayUyMGNpdHklMjBhdCUyMG5pZ2h0fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=100");
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#issueForm {
+
+    margin-top: 100px;
+}
+
+#supportingFiles {
+    margin-top: 20px;
+}
+
+#submitTechTicket {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--AngularJS-->
+    <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
+    <!--Independent CSS files-->
+    <link href="style.css" rel="stylesheet">
+    <title>NightMealz</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<section id="navigation-menu">
+    <div class="container" id="logo">
+        <div class="row">
+            <h4><ion-icon name="restaurant-outline"></ion-icon><a href="index.html">NightMealz</a></h4>
+
+        </div>
+
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Order</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Tech Support</a>
+        </li>
+    </ul>
+
+</section>
+<div class="jumbotron" id="heroOrders">
+    <h4 id="heroTitleOrders">Orders</h4>
+</div>
+<section class="container" id="foodSearch">
+    <h4>Food Search Interface:</h4>
+    <label>Meal Type:</label>
+    <select>
+        <option>Choose A Meal Type...</option>
+        <option>Snack</option>
+        <option>Dessert</option>
+        <option>Breakfast</option>
+        <option>Lunch</option>
+        <option>Dinner</option>
+    </select>
+    <label>Region:</label>
+    <select>
+        <option>Region Selection...</option>
+        <option>North American</option>
+        <option>Latin/Hispanic</option>
+        <option>African</option>
+        <option>Asian/Pacific/Mid-East/Southeast</option>
+        <option>European</option>
+    </select>
+    <label>Serving Size:</label>
+    <select>
+        <option>Select serving size...</option>
+        <option>1 Adult</option>
+        <option>2 Adults</option>
+        <option>3 Adults</option>
+        <option>4 Adults</option>
+        <option>Family</option>
+        <option>Office Party</option>
+    </select>
+    <label>Price Range:</label>
+    <select>
+        <option>Set Price Range...</option>
+        <option>$1 < $20</option>
+        <option>$25 < $100</option>
+        <option>$110 < $200</option>
+        <option>$300 +</option>
+    </select>
+    <button class="btn btn-primary">Search</button>
+</section>
+<section class="container" id="resultsTable">
+    <p><b>Number of results found: 0</b></p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Meal Type</th>
+            <th scope="col">Region</th>
+            <th scope="col">Serving</th>
+            <th scope="col">Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Breakfast</td>
+            <td>Pancakes, Sausage, and Eggs - North American</td>
+            <td>1 Adult</td>
+            <td>$10.00</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Snack</td>
+            <td>Super Nachos - North American</td>
+            <td>2 Adults</td>
+            <td>$10.00</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>
