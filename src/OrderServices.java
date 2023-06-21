@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class OrderService {
+public class OrderServices {
 
     //in this class we need:
     //a menu of foods - ArrayList

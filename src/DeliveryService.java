@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ToYourDoor extends OrderService {
+public class DeliveryService extends OrderService {
 
     Scanner scan = new Scanner(System.in);
     //instance variables
