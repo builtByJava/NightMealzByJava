@@ -84,35 +84,93 @@
     </select>
     <button class="btn btn-primary">Search</button>
 </section>
-<section class="container" id="resultsTable">
-    <p><b>Number of results found: 0</b></p>
-    <table class="table">
-        <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Meal Type</th>
-            <th scope="col">Region</th>
-            <th scope="col">Serving</th>
-            <th scope="col">Price</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Breakfast</td>
-            <td>Pancakes, Sausage, and Eggs - North American</td>
-            <td>1 Adult</td>
-            <td>$10.00</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Snack</td>
-            <td>Super Nachos - North American</td>
-            <td>2 Adults</td>
-            <td>$10.00</td>
-        </tr>
-        </tbody>
-    </table>
+<section class="container" id="selectionMenu">
+    <div class="container">
+            <div class="row-sm-4">
+                <h4>Beverages</h4>
+                <a href="#" class="selectionButton" data-bs-toggle="modal" data-bs-target="#beverageMenuModal"><ion-icon name="cafe-outline"></ion-icon>Coffee & Tea</a>
+                <a href="#" class="moreCoffeeTeaLink" data-bs-toggle="modal" data-bs-target="#beverageMenuModal">View More</a>
+                <ul class="beverageCards">
+                    <li>
+
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel" data-bs-toggle="modal" data-bs-target="#cappuccinoModal">$2.99</label>
+
+                        <img src="https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmxhdHdoaXRlJTIwY29mZmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"  class="card-img-top" alt="...">
+                    </div>
+                    </li>
+                    <li>
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel">$4.99</label>
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxhdHRlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel">$1.99</label>
+                            <img src="https://images.unsplash.com/photo-1504194472231-5a5294eddc43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFtZXJpY2FubyUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="selectionButton"><ion-icon name="water-outline"></ion-icon>Soda & Juices</a>
+                <a href="#" class="moreCoffeeTeaLink" data-bs-toggle="modal" data-bs-target="#beverageMenuModal">View More</a>
+                <ul class="beverageCards">
+                    <li>
+
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel">$7.99</label>
+
+                            <img src="https://images.unsplash.com/photo-1601091581856-07d8bd49e47c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z3JlZW4lMjBqdWljZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"  class="card-img-top" alt="...">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel">$9.99</label>
+                            <img src="https://images.unsplash.com/photo-1507120366498-4656eaece7fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYXQlMjBqdWljZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardBeverages" style="width: 18rem;">
+                            <label class="beveragePriceLabel">$3.99</label>
+                            <img src="https://images.unsplash.com/photo-1473115209096-e0375dd6b3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIzfHxiZXZlcmFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="selectionButton"><ion-icon name="football-outline"></ion-icon>Water & Sports Drinks</a>
+                <!-- Modal -->
+                <div class="modal fade" id="beverageMenuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Beverage Menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">An item</li>
+                                        <li class="list-group-item">A second item</li>
+                                        <li class="list-group-item">A third item</li>
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="#" class="card-link">Card link</a>
+                                        <a href="#" class="card-link">Another link</a>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+
+
 </section>
+<div class="container" >
+    <h4>Meal Dealz</h4>
+</div>
 </body>
 </html>
