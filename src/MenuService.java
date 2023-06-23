@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class MenuService {
+public class MenuService extends OrderServices{
 }

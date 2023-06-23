@@ -293,3 +293,96 @@ width: 50px;
 }
 
 
+
+.beverageMenuModal-content {
+width: 100%;
+
+}
+
+
+.beverageMenuCard {
+
+width: 100%;
+background-color: whitesmoke;
+border-radius: 10px;
+
+}
+
+
+
+.b1-label {
+
+font-size: 28px;
+}
+
+#addToCartB1 {
+
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
+left: 120px;
+width: 40%;
+color: white;
+font-weight: bold;
+
+}
+
+.memberBasicCard-body, .memberBasicCard-body ul li {
+
+
+list-style: none;
+ font-size: 20px;
+
+
+}
+
+.memberBasicCard-body h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.memberPremCard-body, .memberPremCard-body ul li {
+
+
+list-style: none;
+ font-size: 20px;
+
+
+}
+
+.memberPremCard-body h4 {
+        padding-top: 20px;
+        text-align: center;
+}
+
+.memberTitanCard-body, .memberTitanCard-body ul li {
+
+
+
+ font-size: 20px;
+ list-style: none;
+
+
+}
+
+.memberTitanCard-body h4 {
+padding-top: 20px;
+text-align: center;
+}
+
+#userIcon {
+display: flex;
+justify-content: right;
+align-items: right;
+position:relative;
+top: 30px;
+}
+
+#userIcon2 {
+display: flex;
+justify-content: right;
+align-items: right;
+position:relative;
+top: -30px;
+}
